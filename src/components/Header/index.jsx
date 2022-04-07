@@ -14,11 +14,11 @@ const Header = () => {
             .then((json) => {
                 setTask(json);
             });     
-    }
+    }  
     
     return (
         <header className={classes.header}>
-            <button onClick={funActivity} className={classes.button}> Feeling Bored? Click Me! </button>
+            <button onClick={funActivity} className={classes.button}>Feeling Bored? Click Me!! </button>
             <div> {task.activity} </div> 
         </header>   
     )
